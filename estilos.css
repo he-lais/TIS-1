@@ -6,21 +6,23 @@
         color: white;
         padding: 15px;
         margin-bottom: 20px;
-        
+             
 }
    
 .header_area{
     padding: 20px;
     margin: 0px;
 }
-p
+.card-text p
 {   padding: 10px;
-    color: black; 
+    color: rgb(241, 30, 30) !important; 
     align-self: center;
+    text-align: justify;
+    padding: ;
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color:white;
     margin: 0px;
     padding: 0px;    
 }
@@ -55,14 +57,46 @@ body{
     
 }   
 
+.carousel-caption h1{
+
+    position: absolute; 
+    top: -50px; 
+    left: 20px; 
+    width: 100%;    
+    color:white; 
+    font-size:1.5em; 
+    text-align: center;  
+
+}
+
+.carousel-item img
+{
+    text-align: center;      
+    padding-left: 2em;
+    padding-right: 20px;
+    padding-bottom: 1em;
+    
+           
+}
+
+p{
+    text-align: justify;
+}
+
 
 .card-title
 {
     color: #e69226;
 }
 
-.card-body{
-    background-color: #ffffff;
+.cartao{
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    margin-right: 5em;
+    margin-bottom: 0em;
+    
+    
 }
 
 .main .card{
@@ -98,15 +132,10 @@ body{
     
 }
 
-/* Breakpoint: 1024 */
-@media screen and (min-width:601px) and (max-width:1024px){
-
-    .header{
-        
-    }
+.card-text texto h5{
+    color: #2e6e12;
 
 }
-
 .footer{
     margin-top: 10px;
     background-color: #2e6e12;

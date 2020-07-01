@@ -45,17 +45,39 @@ body{
     background-color: #ec4a0a;
 }
 
-/* altera o que é ativado
-.active{
-    color: black !important;
-    background-color: #e2cc53 !important;
-    
+/*#txtPesquisa{
+    margin-left: 50ex;
+    margin-bottom: 1rem;
 }*/
 
 .logo{
-    width: 200px;
+    width: 180px;
     
 }   
+
+/* Regras do Componente box-noticia */
+.box-noticia {
+    margin: 10px 0px;
+    overflow: auto;
+    color: black
+    clear: both;
+    text-align: justify;
+}
+
+.box-noticia img {
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.box-noticia .titulo {
+    font-weight: 800;
+   
+}
+
+.box-noticia .creditos {
+    color:rgba(255, 51, 0, 0.829)
+}
 
 .carousel-caption h1{
 
@@ -75,11 +97,10 @@ body{
     padding-left: 2em;
     padding-right: 20px;
     padding-bottom: 1em;
+    margin-left: 4em;
+    margin-right: em;
     
-           
 }
-
-
 
 p{
     text-align: justify;
@@ -96,8 +117,7 @@ p{
     min-height: 1px;
     padding: 1.25rem;
     margin-right: 5em;
-    margin-bottom: 0em;
-    
+    margin-bottom: 0em;   
     
 }
 
@@ -108,8 +128,6 @@ p{
 .main_area{
     margin-bottom: 20px;
 }
-
-
 .memu_area2{
     margin-top: 30px;
     width: 100%;
@@ -132,6 +150,10 @@ p{
     cursor: pointer;
     color: orangered;
     
+}
+#btnPesquisa:hover{
+    background-color: #2e6e12;
+    color: white;
 }
 
 .card-text texto h5{

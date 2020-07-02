@@ -53,7 +53,15 @@ body{
 .logo{
     width: 180px;
     
-}   
+} 
+.pesquisa{    
+    margin-bottom: 10px;
+}  
+.centralizar{
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Regras do Componente box-noticia */
 .box-noticia {

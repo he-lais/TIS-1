@@ -47,8 +47,9 @@ function executarPesquisa(query) {
         `https://newsapi.org/v2/top-headlines?country=br&apiKey=2f9f9de63a1144b39c0315efda406f10`
     );
     xhr.send();
+}
 
 document
 .getElementById("btnPesquisa")
-.addEventListener("click", executarPesquisa);
-}
+.addEventListener("click", () => executarPesquisa());
+

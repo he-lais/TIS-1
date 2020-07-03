@@ -44,7 +44,7 @@ function executarPesquisa(query) {
     xhr.onload = exibirNoticias; /*quando as informações chegar exibe as noticias*/
     xhr.open(
         "GET",
-        `https://newsapi.org/v2/top-headlines?country=br&apiKey=2f9f9de63a1144b39c0315efda406f10`
+        `https://newsapi.org/v2/everything?q=${query}&apiKey=${API_KEY}`
     );
     xhr.send();
 }
